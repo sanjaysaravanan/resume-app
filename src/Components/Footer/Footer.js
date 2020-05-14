@@ -24,7 +24,8 @@ const useStyles = makeStyles(theme => ({
   gridCont: {
     padding: theme.spacing(4),
     backgroundColor: "#E83556",
-    width: "100%"
+    width: "100%",
+    height: "100%"
   },
   footerIconDiv: {
     borderRadius: "50%",
