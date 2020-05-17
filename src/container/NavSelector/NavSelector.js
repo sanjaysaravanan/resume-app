@@ -1,12 +1,25 @@
 import React from "react";
 import { useRouteMatch } from "react-router-dom";
-import { Typography } from "@material-ui/core";
+import { Typography, makeStyles } from "@material-ui/core";
 
 import Resume from "../../Components/Resume/Resume";
 import Projects from "../../Components/Projects/Projects";
 import Contact from "../../Components/Contact/Contact";
 
+const useStyles = makeStyles(theme => ({
+  root: {
+    marginLeft: "10%",
+    marginRight: "10%",
+    [theme.breakpoints.down("xs")]: {
+      marginLeft: "2%",
+      marginRight: "2%"
+    }
+  }
+}));
+
 export default function(props) {
+  const classes = useStyles();
+
   const {
     params: { tab }
   } = useRouteMatch();
@@ -31,5 +44,5 @@ export default function(props) {
     return selectedTab;
   }
 
-  return selectTab();
+  return <div className={classes.root}>{selectTab()}</div>;
 }

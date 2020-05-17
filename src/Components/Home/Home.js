@@ -68,7 +68,9 @@ const useStyles = makeStyles(theme => ({
     borderRadius: "50%",
     width: 130,
     height: 130,
-    paddingTop: 55,
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
     marginLeft: 20,
     color: "#ffffff",
     "&:hover": {
@@ -82,7 +84,6 @@ const useStyles = makeStyles(theme => ({
     },
     [theme.breakpoints.only("sm")]: {
       marginLeft: 0,
-      paddingTop: 40,
       "&:hover": {
         filter: `brightness(65%)`
       }
@@ -91,7 +92,6 @@ const useStyles = makeStyles(theme => ({
       marginLeft: 0,
       width: 80,
       height: 80,
-      paddingTop: 20,
       "&:hover": {
         filter: `brightness(65%)`
       }
@@ -103,7 +103,9 @@ const useStyles = makeStyles(theme => ({
     borderRadius: "50%",
     width: 130,
     height: 130,
-    paddingTop: 55,
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
     marginLeft: 20,
     color: "#ffffff",
     "&:hover": {
@@ -117,7 +119,6 @@ const useStyles = makeStyles(theme => ({
     },
     [theme.breakpoints.only("sm")]: {
       marginLeft: 10,
-      paddingTop: 40,
       "&:hover": {
         filter: `brightness(65%)`
       }
@@ -126,7 +127,6 @@ const useStyles = makeStyles(theme => ({
       marginLeft: 10,
       width: 80,
       height: 80,
-      paddingTop: 20,
       "&:hover": {
         filter: `brightness(65%)`
       }
@@ -138,7 +138,9 @@ const useStyles = makeStyles(theme => ({
     borderRadius: "50%",
     width: 130,
     height: 130,
-    paddingTop: 55,
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
     marginLeft: 20,
     color: "#ffffff",
     "&:hover": {
@@ -152,7 +154,6 @@ const useStyles = makeStyles(theme => ({
     },
     [theme.breakpoints.only("sm")]: {
       marginLeft: 10,
-      paddingTop: 40,
       "&:hover": {
         filter: `brightness(65%)`
       }
@@ -161,7 +162,6 @@ const useStyles = makeStyles(theme => ({
       marginLeft: 10,
       width: 80,
       height: 80,
-      paddingTop: 20,
       "&:hover": {
         filter: `brightness(65%)`
       }
@@ -226,7 +226,7 @@ export default function() {
                 </div>
               </Link>
               <Link
-                to="/contact"
+                to="/resume"
                 component={LinkRo}
                 className={classes.navigationLink}
               >
@@ -251,10 +251,7 @@ export default function() {
               >
                 <div className={classes.resumeButton}>
                   <Typography variant="body2" align="center">
-                    MY
-                  </Typography>
-                  <Typography variant="body2" align="center">
-                    RESUME
+                    MY RESUME
                   </Typography>
                 </div>
               </Link>
@@ -265,24 +262,18 @@ export default function() {
               >
                 <div className={classes.workButton}>
                   <Typography variant="body2" align="center">
-                    MY
-                  </Typography>
-                  <Typography variant="body2" align="center">
-                    WORK
+                    MY WORK
                   </Typography>
                 </div>
               </Link>
               <Link
-                to="/contact"
+                to="/resume"
                 component={LinkRo}
                 className={classes.navigationLink}
               >
                 <div className={classes.skillButton}>
                   <Typography variant="body2" align="center">
-                    MY
-                  </Typography>
-                  <Typography variant="body2" align="center">
-                    SKILLS
+                    MY SKILLS
                   </Typography>
                 </div>
               </Link>

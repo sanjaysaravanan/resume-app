@@ -17,15 +17,14 @@ import {
 const useStyles = makeStyles(theme => ({
   footer: {
     backgroundColor: "#E83556",
-    height: "17vh",
+    height: "100%",
     color: "#ffffff",
     width: "100%"
   },
   gridCont: {
     padding: theme.spacing(4),
     backgroundColor: "#E83556",
-    width: "100%",
-    height: "100%"
+    width: "100%"
   },
   footerIconDiv: {
     borderRadius: "50%",
@@ -33,9 +32,10 @@ const useStyles = makeStyles(theme => ({
     width: 60,
     backgroundColor: "#61D0D4",
     color: "#E83556",
-    paddingTop: 12,
-    float: "left",
-    display: "block"
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    float: "left"
   },
   footerComponent: {
     paddingRight: 50
