@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { css, jsx } from "@emotion/core";
 import SliderContent from "./SliderContent";
 import Slide from "./Slide";
@@ -10,7 +10,21 @@ import Dots from "./Dots";
  * @function Slider
  */
 const Slider = props => {
-  const getWidth = () => 500;
+  const ref = useRef();
+  const [sliderWidth, setSliderWidth] = useState(500);
+  useEffect(() => {
+    const resize = () => {
+      setSliderWidth(ref.current.offsetWidth);
+    };
+
+    const onResize = window.addEventListener("resize", resize);
+
+    return () => {
+      window.removeEventListener("resize", onResize);
+    };
+  }, []);
+
+  const getWidth = () => sliderWidth;
 
   const [state, setState] = useState({
     activeIndex: 0,
@@ -53,7 +67,7 @@ const Slider = props => {
   };
 
   return (
-    <div css={SliderCSS}>
+    <div ref={ref} css={SliderCSS}>
       <SliderContent
         translate={translate}
         transition={transition}
