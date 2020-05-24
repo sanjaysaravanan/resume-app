@@ -64,6 +64,9 @@ const CssTextField = withStyles({
     borderRadius: 0,
     backgroundColor: "#E83556",
     "& .MuiOutlinedInput-root": {
+      "& fieldset": {
+        borderRadius: 0
+      },
       "&:hover fieldset": {
         borderRadius: 0
       },
