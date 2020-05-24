@@ -134,7 +134,7 @@ export default function() {
             </div>
           </Grid>
           <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
-            Looking forward to answering your query,
+            Looking forward to answering your message,
             <div className={classes.rightForm}>
               <form id="messageMail" autoComplete="off" onSubmit={onSubmit}>
                 <CssTextField

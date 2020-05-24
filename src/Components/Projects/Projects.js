@@ -149,7 +149,7 @@ export default function() {
       <Container className={classes.projectsRoot} fixed>
         <Typography variant="h2">LATEST PROJECTS</Typography>
         {projects.map((project, i) => (
-          <ProjectsMain detail={project} i={i + 1} />
+          <ProjectsMain detail={project} i={i + 1} key={i} />
         ))}
         <CustomDivider />
         <div className={classes.discussDiv}>
