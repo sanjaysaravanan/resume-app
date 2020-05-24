@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-import Header from "../Header/HeaderComponent";
 import {
   Typography,
   makeStyles,
@@ -12,6 +11,8 @@ import {
   Button
 } from "@material-ui/core";
 import { LinkedIn, Instagram } from "@material-ui/icons";
+
+import Header from "../Header/HeaderComponent";
 
 const useStyles = makeStyles(theme => ({
   contactRoot: {
@@ -63,6 +64,9 @@ const CssTextField = withStyles({
     borderRadius: 0,
     backgroundColor: "#E83556",
     "& .MuiOutlinedInput-root": {
+      "& fieldset": {
+        borderRadius: 0
+      },
       "&:hover fieldset": {
         borderRadius: 0
       },
