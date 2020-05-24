@@ -129,12 +129,12 @@ export default function() {
               </div>
             </Grid>
             <Grid item xs={12} sm={12} md={9} lg={9} xl={9}>
-              {props.details.map(detail => (
-                <>
+              {props.details.map((detail, i) => (
+                <div key={i}>
                   <Typography variant="h5">{detail.subTitle}</Typography>
                   <Typography variant="h5">{detail.year}</Typography>
                   <Typography variant="h6">{detail.descrption}</Typography>
-                </>
+                </div>
               ))}
             </Grid>
           </Grid>
@@ -171,8 +171,10 @@ export default function() {
                   </div>
                   <CustomDivider />
                   <div className={classes.skillMain}>
-                    {skills.map(skill => (
-                      <List disablePadding>{skill}</List>
+                    {skills.map((skill, i) => (
+                      <List disablePadding key={i}>
+                        {skill}
+                      </List>
                     ))}
                   </div>
                 </Grid>
@@ -185,8 +187,10 @@ export default function() {
                   </div>
                   <CustomDivider />
                   <div className={classes.skillMain}>
-                    {languages.map(language => (
-                      <List disablePadding>{language}</List>
+                    {languages.map((language, i) => (
+                      <List disablePadding key={i}>
+                        {language}
+                      </List>
                     ))}
                   </div>
                 </Grid>
