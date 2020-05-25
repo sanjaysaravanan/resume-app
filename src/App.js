@@ -25,9 +25,6 @@ const theme = createMuiTheme({
       dark: "#a13e0e",
       light: "#eb7b43"
     },
-    success: {
-      main: "#61D0D4"
-    },
     background: { default: "#f9fafb" }
   },
   typography: {
