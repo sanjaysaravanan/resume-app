@@ -10,7 +10,7 @@ import {
   Link
 } from "@material-ui/core";
 import { Link as LinkRo } from "react-router-dom";
-import images from "../../Pages/images";
+import { projects } from "../../utils/Details";
 import Slider from "../Slider/Slider";
 
 const useStyles = makeStyles(theme => ({
@@ -76,42 +76,6 @@ const useStyles = makeStyles(theme => ({
 export default function() {
   const classes = useStyles();
 
-  const projects = [
-    {
-      title: "Website Resume",
-      description:
-        "I'm a Paragraph. Click here to add your own text " +
-        "and edit me. It’s easy. Just click “Edit Text” or double click" +
-        " me and you can start adding your own content and make changes" +
-        " to the font. Feel free to drag and drop me anywhere you like " +
-        "on your page. I’m a great place for you to write more. Tell a " +
-        "story about yourself.",
-      images: images
-    },
-    {
-      title: "ToDo Application",
-      description:
-        "I'm a Paragraph. Click here to add your own text " +
-        "and edit me. It’s easy. Just click “Edit Text” or double click" +
-        " me and you can start adding your own content and make changes" +
-        " to the font. Feel free to drag and drop me anywhere you like " +
-        "on your page. I’m a great place for you to write more. Tell a " +
-        "story about yourself.",
-      images: images
-    },
-    {
-      title: "Coming Soon",
-      description:
-        "I'm a Paragraph. Click here to add your own text " +
-        "and edit me. It’s easy. Just click “Edit Text” or double click" +
-        " me and you can start adding your own content and make changes" +
-        " to the font. Feel free to drag and drop me anywhere you like " +
-        "on your page. I’m a great place for you to write more. Tell a " +
-        "story about yourself.",
-      images: images
-    }
-  ];
-
   function CustomDivider() {
     return <Divider classes={{ root: classes.dividerColor }} />;
   }
@@ -134,6 +98,8 @@ export default function() {
               <CustomDivider />
               <div className={classes.projectTitle}>
                 <Typography variant="h5">{props.detail.title}</Typography>
+                <strong>Technologies:</strong>{" "}
+                {props.detail.technologies.join(", ")}
               </div>
               {props.detail.description}
             </Grid>

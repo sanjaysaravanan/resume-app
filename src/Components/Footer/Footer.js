@@ -14,6 +14,8 @@ import {
   GitHub
 } from "@material-ui/icons";
 
+import { links, contacts } from "../../utils/Details";
+
 const useStyles = makeStyles(theme => ({
   footer: {
     backgroundColor: "#E83556",
@@ -45,6 +47,10 @@ const useStyles = makeStyles(theme => ({
       color: "#3f00fc",
       textDecoration: "none"
     }
+  },
+  hackerrankIconDiv: {
+    height: 24,
+    width: 24
   }
 }));
 
@@ -72,8 +78,8 @@ export default function() {
             </div>
             <div className={classes.footerComponent}>
               Call
-              <div>9790889427</div>
-              <div>7092799119</div>
+              <div>{contacts.phoneOne}</div>
+              <div>{contacts.phoneTwo}</div>
             </div>
           </Grid>
           <Grid item xs={12} sm={6} md={3} lg={3} xl={3}>
@@ -81,7 +87,7 @@ export default function() {
               <MailOutlineOutlined fontSize="large" />
             </div>
             Contact
-            <Typography variant="body2">sanjaysaravanan38@gmail.com</Typography>
+            <Typography variant="body2">{contacts.mailId}</Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={3} lg={3} xl={3}>
             <div className={classes.footerIconDiv}>
@@ -93,7 +99,7 @@ export default function() {
                 <Link
                   color="inherit"
                   className={classes.navigationLink}
-                  href="https://www.facebook.com/sanjaysaravanan21"
+                  href={links.facebook}
                   target="_blank"
                 >
                   <Facebook />
@@ -101,7 +107,7 @@ export default function() {
                 <Link
                   color="inherit"
                   className={classes.navigationLink}
-                  href="https://www.linkedin.com/in/sanjaysaravanan21/"
+                  href={links.linkedIn}
                   target="_blank"
                 >
                   <LinkedIn />
@@ -109,7 +115,7 @@ export default function() {
                 <Link
                   color="inherit"
                   className={classes.navigationLink}
-                  href="https://github.com/sanjaysaravanan"
+                  href={links.github}
                   target="_blank"
                 >
                   <GitHub />
@@ -117,7 +123,7 @@ export default function() {
                 <Link
                   color="inherit"
                   className={classes.navigationLink}
-                  href="https://twitter.com/sanjaysaravan21"
+                  href={links.twitter}
                   target="_blank"
                 >
                   <Twitter />
@@ -125,7 +131,7 @@ export default function() {
                 <Link
                   color="inherit"
                   className={classes.navigationLink}
-                  href="https://www.instagram.com/sanjaysaravanan_21/"
+                  href={links.instagram}
                   target="_blank"
                 >
                   <Instagram />

@@ -4,7 +4,9 @@ import Header from "../Header/HeaderComponent";
 import { Container, Typography, Link } from "@material-ui/core";
 import { Link as LinkRo } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
+
 import ProfilePic from "../../assets/images/sanjay.jpg";
+import { aboutMyself } from "../../utils/Details";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -176,17 +178,6 @@ const useStyles = makeStyles(theme => ({
 export default function() {
   const classes = useStyles();
 
-  const description_text =
-    "Coming to my strengths and weaknesses, my strengths are. I am a good learner, " +
-    "innovative, I have positive attitude and committed to my work. My weakness is" +
-    " procrastination and I am a bit selfish too. My ultimate goal is to do work " +
-    "what I like to do and your company can provide me that opportunity" +
-    "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just" +
-    " click “Edit Text” or double click me and you can start adding your own content " +
-    "and make changes to the font. Feel free to drag and drop me anywhere you like on " +
-    "your page. I’m a great place for you to write more. Tell a story and let your users " +
-    "get to know you";
-
   return (
     <div className={classes.root}>
       <Header tab="home" />
@@ -288,7 +279,7 @@ export default function() {
           </div>
         </div>
         <div className={classes.textArea}>
-          <Typography variant="h6">{description_text}</Typography>
+          <Typography variant="h6">{aboutMyself}</Typography>
         </div>
       </Container>
     </div>

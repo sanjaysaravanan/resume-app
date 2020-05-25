@@ -13,8 +13,14 @@ const Slider = props => {
   const ref = useRef();
   const [sliderWidth, setSliderWidth] = useState(500);
   useEffect(() => {
-    const resize = () => {
+    if (ref.current !== null) {
       setSliderWidth(ref.current.offsetWidth);
+    }
+
+    const resize = () => {
+      if (ref.current !== null) {
+        setSliderWidth(ref.current.offsetWidth);
+      }
     };
 
     const onResize = window.addEventListener("resize", resize);
@@ -23,7 +29,6 @@ const Slider = props => {
       window.removeEventListener("resize", onResize);
     };
   }, []);
-
   const getWidth = () => sliderWidth;
 
   const [state, setState] = useState({

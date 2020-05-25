@@ -16,7 +16,7 @@ const Arrow = ({ direction, handleClick }) => (
       cursor: pointer;
       align-items: center;
       transition: transform ease-in 0.1s;
-      color: #fff;
+      color: #000;
       &:hover {
         transform: scale(1.3);
       }
