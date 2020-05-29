@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/resume-app/static/css/main.2b12805e.chunk.css",
+    "main.js": "/resume-app/static/js/main.a9fc6cb2.chunk.js",
+    "main.js.map": "/resume-app/static/js/main.a9fc6cb2.chunk.js.map",
+    "runtime-main.js": "/resume-app/static/js/runtime-main.a32f6f6d.js",
+    "runtime-main.js.map": "/resume-app/static/js/runtime-main.a32f6f6d.js.map",
+    "static/js/2.5d80a36d.chunk.js": "/resume-app/static/js/2.5d80a36d.chunk.js",
+    "static/js/2.5d80a36d.chunk.js.map": "/resume-app/static/js/2.5d80a36d.chunk.js.map",
+    "index.html": "/resume-app/index.html",
+    "precache-manifest.017a4be58c851905d637ac98cf5020bc.js": "/resume-app/precache-manifest.017a4be58c851905d637ac98cf5020bc.js",
+    "service-worker.js": "/resume-app/service-worker.js",
+    "static/css/main.2b12805e.chunk.css.map": "/resume-app/static/css/main.2b12805e.chunk.css.map",
+    "static/js/2.5d80a36d.chunk.js.LICENSE.txt": "/resume-app/static/js/2.5d80a36d.chunk.js.LICENSE.txt",
+    "static/media/hackerrank-brands.svg": "/resume-app/static/media/hackerrank-brands.d374537d.svg",
+    "static/media/resume-app-1.png": "/resume-app/static/media/resume-app-1.896eb39d.png",
+    "static/media/resume-app-2.png": "/resume-app/static/media/resume-app-2.f6e377ef.png",
+    "static/media/resume-app-3.png": "/resume-app/static/media/resume-app-3.cc83b48f.png",
+    "static/media/resume-app-4.png": "/resume-app/static/media/resume-app-4.ef3e9bb5.png",
+    "static/media/sanjay.jpg": "/resume-app/static/media/sanjay.60f9657d.jpg",
+    "static/media/todo-app-1.png": "/resume-app/static/media/todo-app-1.ecbbea2b.png",
+    "static/media/todo-app-2.png": "/resume-app/static/media/todo-app-2.f69d9831.png",
+    "static/media/todo-app-3.png": "/resume-app/static/media/todo-app-3.0b41d0d3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a32f6f6d.js",
+    "static/js/2.5d80a36d.chunk.js",
+    "static/css/main.2b12805e.chunk.css",
+    "static/js/main.a9fc6cb2.chunk.js"
+  ]
+}
