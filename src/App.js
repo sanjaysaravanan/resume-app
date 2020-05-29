@@ -41,8 +41,8 @@ function App() {
           <div className="main">
             <Router>
               <Switch>
-                <Route exact path="resume-app/" component={Home} />
-                <Route exact path="resume-app/:tab" component={NavSelector} />
+                <Route exact path="/resume-app/" component={Home} />
+                <Route exact path="/resume-app/:tab" component={NavSelector} />
                 <Route
                   path="*"
                   render={() => (

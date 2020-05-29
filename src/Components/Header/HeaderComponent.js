@@ -73,7 +73,7 @@ export default function Header(props) {
     >
       <MenuItem onClick={handleMobileMenuClose}>
         <Link
-          to="/"
+          to="/resume-app"
           component={LinkRo}
           className={classes.navigationLink}
           color={selectedTab === "home" ? "primary" : "textPrimary"}
@@ -84,7 +84,7 @@ export default function Header(props) {
       </MenuItem>
       <MenuItem onClick={handleMobileMenuClose}>
         <Link
-          to="/resume"
+          to="/resume-app/resume"
           component={LinkRo}
           className={classes.navigationLink}
           color={selectedTab === "resume" ? "primary" : "textPrimary"}
@@ -95,7 +95,7 @@ export default function Header(props) {
       </MenuItem>
       <MenuItem onClick={handleMobileMenuClose}>
         <Link
-          to="/projects"
+          to="/resume-app/projects"
           component={LinkRo}
           className={classes.navigationLink}
           color={selectedTab === "projects" ? "primary" : "textPrimary"}
@@ -106,7 +106,7 @@ export default function Header(props) {
       </MenuItem>
       <MenuItem onClick={handleMobileMenuClose}>
         <Link
-          to="/contact"
+          to="/resume-app/contact"
           component={LinkRo}
           className={classes.navigationLink}
           color={selectedTab === "contact" ? "primary" : "textPrimary"}
@@ -128,7 +128,7 @@ export default function Header(props) {
         <div className={classes.sectionDesktop}>
           <div className={classes.navTabs}>
             <Link
-              to="/"
+              to="/resume-app/"
               component={LinkRo}
               className={classes.navigationLink}
               color={selectedTab === "home" ? "primary" : "textPrimary"}
@@ -139,7 +139,7 @@ export default function Header(props) {
           </div>
           <div className={classes.navTabs}>
             <Link
-              to="/resume"
+              to="/resume-app/resume"
               component={LinkRo}
               className={classes.navigationLink}
               color={selectedTab === "resume" ? "primary" : "textPrimary"}
@@ -150,7 +150,7 @@ export default function Header(props) {
           </div>
           <div className={classes.navTabs}>
             <Link
-              to="/projects"
+              to="/resume-app/projects"
               component={LinkRo}
               className={classes.navigationLink}
               color={selectedTab === "projects" ? "primary" : "textPrimary"}
@@ -161,7 +161,7 @@ export default function Header(props) {
           </div>
           <div className={classes.navTabs}>
             <Link
-              to="/contact"
+              to="/resume-app/contact"
               component={LinkRo}
               className={classes.navigationLink}
               color={selectedTab === "contact" ? "primary" : "textPrimary"}

@@ -195,7 +195,7 @@ export default function() {
             <Typography variant="h3">a bit about me:</Typography>
             <div className={classes.mainSectionNavs}>
               <Link
-                to="/resume"
+                to="/resume-app/resume"
                 component={LinkRo}
                 className={classes.navigationLink}
               >
@@ -206,7 +206,7 @@ export default function() {
                 </div>
               </Link>
               <Link
-                to="/projects"
+                to="/resume-app/projects"
                 component={LinkRo}
                 className={classes.navigationLink}
               >
@@ -217,7 +217,7 @@ export default function() {
                 </div>
               </Link>
               <Link
-                to="/resume"
+                to="/resume-app/resume"
                 component={LinkRo}
                 className={classes.navigationLink}
               >
@@ -236,7 +236,7 @@ export default function() {
             <Typography variant="h5">a bit about me:</Typography>
             <div className={classes.mainSectionNavs}>
               <Link
-                to="/resume"
+                to="/resume-app/resume"
                 component={LinkRo}
                 className={classes.navigationLink}
               >
@@ -247,7 +247,7 @@ export default function() {
                 </div>
               </Link>
               <Link
-                to="/projects"
+                to="/resume-app/projects"
                 component={LinkRo}
                 className={classes.navigationLink}
               >
@@ -258,7 +258,7 @@ export default function() {
                 </div>
               </Link>
               <Link
-                to="/resume"
+                to="/resume-app/resume"
                 component={LinkRo}
                 className={classes.navigationLink}
               >
