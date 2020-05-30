@@ -1,6 +1,6 @@
 import React from "react";
 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import { CssBaseline } from "@material-ui/core";
 import {
   StylesProvider,
@@ -41,7 +41,7 @@ function App() {
           <div className="main">
             <Router>
               <Switch>
-                <Route exact path="/resume-app/" component={Home} />
+                <Route exact path="/resume-app" component={Home} />
                 <Route exact path="/resume-app/:tab" component={NavSelector} />
                 <Route
                   path="*"
