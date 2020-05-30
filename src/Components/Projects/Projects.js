@@ -76,6 +76,7 @@ const useStyles = makeStyles(theme => ({
 export default function() {
   const classes = useStyles();
 
+  // Custom Divider
   function CustomDivider() {
     return <Divider classes={{ root: classes.dividerColor }} />;
   }
