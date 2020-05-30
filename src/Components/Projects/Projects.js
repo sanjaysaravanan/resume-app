@@ -128,7 +128,7 @@ export default function() {
               </div>
             </Grid>
             <Grid item xs={12} sm={12} md={2} lg={2} xl={2}>
-              <Link to="/contact" component={LinkRo}>
+              <Link to="/resume-app/contact" component={LinkRo}>
                 <div className={classes.talkIcon}>Let's Talk</div>
               </Link>
             </Grid>
