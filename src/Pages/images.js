@@ -1,6 +1,23 @@
-import Slide1 from "../assets/images/slide1.jpg";
-import Slide2 from "../assets/images/slide2.jpg";
-import Slide3 from "../assets/images/slide3.jpg";
-import Slide4 from "../assets/images/slide4.jpg";
+import image1 from "../assets/images/APJ-Sir-Quotes-1.jpg";
+import image2 from "../assets/images/APJ-Sir-Quotes-2.jpg";
+import image3 from "../assets/images/APJ-Sir-Quotes-3.jpg";
+import image4 from "../assets/images/APJ-Sir-Quotes-4.jpg";
+import image5 from "../assets/images/APJ-Sir-Quotes-5.jpg";
+import image6 from "../assets/images/APJ-Sir-Quotes-6.jpg";
+import image7 from "../assets/images/APJ-Sir-Quotes-7.jpg";
+import image8 from "../assets/images/APJ-Sir-Quotes-8.jpg";
+import image9 from "../assets/images/APJ-Sir-Quotes-9.jpg";
+import image10 from "../assets/images/APJ-Sir-Quotes-10.jpg";
 
-export default [Slide1, Slide2, Slide3, Slide4];
+export const quotesList = [
+  image1,
+  image2,
+  image3,
+  image4,
+  image5,
+  image6,
+  image7,
+  image8,
+  image9,
+  image10
+];

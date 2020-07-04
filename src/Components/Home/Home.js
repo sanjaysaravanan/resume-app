@@ -7,6 +7,8 @@ import { makeStyles } from "@material-ui/core/styles";
 
 import ProfilePic from "../../assets/images/sanjay.jpg";
 import { aboutMyself } from "../../utils/Details";
+import AutoPlaySlider from "../../Components/Slider/AutoPlaySlider";
+import { quotesList } from "../../Pages/images";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -172,6 +174,13 @@ const useStyles = makeStyles(theme => ({
   textArea: {
     textAlign: "left",
     width: "100%"
+  },
+  quoteSlides: {
+    height: 330,
+    [theme.breakpoints.down("sm")]: {
+      height: 200
+    },
+    marginTop: 24
   }
 }));
 
@@ -182,6 +191,9 @@ export default function() {
     <div className={classes.root}>
       <Header tab="home" />
       <Container fixed>
+        <div className={classes.quoteSlides}>
+          <AutoPlaySlider slides={quotesList} autoPlay={true} />
+        </div>
         <div className={classes.sectionDesktop}>
           <div className={classes.leftSection}>
             <img
