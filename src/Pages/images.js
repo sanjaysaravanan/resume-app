@@ -7,7 +7,7 @@ import image6 from "../assets/images/quotessix.jpg";
 import image7 from "../assets/images/quotesseven.jpg";
 import image8 from "../assets/images/quoteseight.jpg";
 import image9 from "../assets/images/quotesnine.jpg";
-import image10 from "../assets/images/quotes-10.jpg";
+import image10 from "../assets/images/quotes-10-min.jpg";
 
 export const quotesList = [
   image1,
