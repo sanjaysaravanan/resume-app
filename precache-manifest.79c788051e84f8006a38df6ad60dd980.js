@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "83e78bfae7c876aa58f9779093c01a4c",
+    "revision": "7de1c4b7cc30318a54a9c8fe17e7f539",
     "url": "/resume-app/index.html"
   },
   {
-    "revision": "5dffa39cbde4cf3c3ad0",
+    "revision": "b5bb58310dc42f9c9760",
     "url": "/resume-app/static/css/main.bb80fbe5.chunk.css"
   },
   {
@@ -16,52 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/resume-app/static/js/2.3bf58eb9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5dffa39cbde4cf3c3ad0",
-    "url": "/resume-app/static/js/main.224ef6db.chunk.js"
+    "revision": "b5bb58310dc42f9c9760",
+    "url": "/resume-app/static/js/main.1264965d.chunk.js"
   },
   {
     "revision": "8fd7e2581f324d542b61",
     "url": "/resume-app/static/js/runtime-main.a32f6f6d.js"
-  },
-  {
-    "revision": "8adcfb744c863a80a43a8ac30835c30d",
-    "url": "/resume-app/static/media/APJ-Sir-Quotes-1.8adcfb74.jpg"
-  },
-  {
-    "revision": "11f99642aad7f239192b004e16a0d344",
-    "url": "/resume-app/static/media/APJ-Sir-Quotes-10.11f99642.jpg"
-  },
-  {
-    "revision": "5581ae8ad3e37bafee3119c455851123",
-    "url": "/resume-app/static/media/APJ-Sir-Quotes-2.5581ae8a.jpg"
-  },
-  {
-    "revision": "afb61e949b9b1611346077fcd83a5610",
-    "url": "/resume-app/static/media/APJ-Sir-Quotes-3.afb61e94.jpg"
-  },
-  {
-    "revision": "d894f269d69174ac292266dd44672089",
-    "url": "/resume-app/static/media/APJ-Sir-Quotes-4.d894f269.jpg"
-  },
-  {
-    "revision": "57c929d1c0de976d5871b593f96fcd9d",
-    "url": "/resume-app/static/media/APJ-Sir-Quotes-5.57c929d1.jpg"
-  },
-  {
-    "revision": "df6ad1fa8f752f5efa31a65a4201b373",
-    "url": "/resume-app/static/media/APJ-Sir-Quotes-6.df6ad1fa.jpg"
-  },
-  {
-    "revision": "43f6ec4009675ff2dd4979c800f7a23f",
-    "url": "/resume-app/static/media/APJ-Sir-Quotes-7.43f6ec40.jpg"
-  },
-  {
-    "revision": "33485d8f689386ee97caa0c391630fca",
-    "url": "/resume-app/static/media/APJ-Sir-Quotes-8.33485d8f.jpg"
-  },
-  {
-    "revision": "3a52f3ae5294d274962965b9f5c26fb0",
-    "url": "/resume-app/static/media/APJ-Sir-Quotes-9.3a52f3ae.jpg"
   },
   {
     "revision": "d374537d3a40c32a94afc4417f2fe9f0",
@@ -70,6 +30,46 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "aaf34fe7f3ccc1b20db07331e8795525",
     "url": "/resume-app/static/media/left-arrow.aaf34fe7.svg"
+  },
+  {
+    "revision": "11f99642aad7f239192b004e16a0d344",
+    "url": "/resume-app/static/media/quotes-10.11f99642.jpg"
+  },
+  {
+    "revision": "33485d8f689386ee97caa0c391630fca",
+    "url": "/resume-app/static/media/quoteseight.33485d8f.jpg"
+  },
+  {
+    "revision": "57c929d1c0de976d5871b593f96fcd9d",
+    "url": "/resume-app/static/media/quotesfive.57c929d1.jpg"
+  },
+  {
+    "revision": "d894f269d69174ac292266dd44672089",
+    "url": "/resume-app/static/media/quotesfour.d894f269.jpg"
+  },
+  {
+    "revision": "3a52f3ae5294d274962965b9f5c26fb0",
+    "url": "/resume-app/static/media/quotesnine.3a52f3ae.jpg"
+  },
+  {
+    "revision": "8adcfb744c863a80a43a8ac30835c30d",
+    "url": "/resume-app/static/media/quotesone.8adcfb74.jpg"
+  },
+  {
+    "revision": "43f6ec4009675ff2dd4979c800f7a23f",
+    "url": "/resume-app/static/media/quotesseven.43f6ec40.jpg"
+  },
+  {
+    "revision": "df6ad1fa8f752f5efa31a65a4201b373",
+    "url": "/resume-app/static/media/quotessix.df6ad1fa.jpg"
+  },
+  {
+    "revision": "afb61e949b9b1611346077fcd83a5610",
+    "url": "/resume-app/static/media/quotesthree.afb61e94.jpg"
+  },
+  {
+    "revision": "5581ae8ad3e37bafee3119c455851123",
+    "url": "/resume-app/static/media/quotestwo.5581ae8a.jpg"
   },
   {
     "revision": "896eb39d9dfb34401a199e6c81fa01a2",
