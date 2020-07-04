@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7de1c4b7cc30318a54a9c8fe17e7f539",
+    "revision": "1cb67a2f73229a70f3962d1da775316c",
     "url": "/resume-app/index.html"
   },
   {
-    "revision": "b5bb58310dc42f9c9760",
+    "revision": "9289898135c5c680b0a5",
     "url": "/resume-app/static/css/main.bb80fbe5.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/resume-app/static/js/2.3bf58eb9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b5bb58310dc42f9c9760",
-    "url": "/resume-app/static/js/main.1264965d.chunk.js"
+    "revision": "9289898135c5c680b0a5",
+    "url": "/resume-app/static/js/main.a84e66c8.chunk.js"
   },
   {
     "revision": "8fd7e2581f324d542b61",
@@ -32,12 +32,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/resume-app/static/media/left-arrow.aaf34fe7.svg"
   },
   {
-    "revision": "11f99642aad7f239192b004e16a0d344",
-    "url": "/resume-app/static/media/quotes-10.11f99642.jpg"
+    "revision": "9cfb6d0cf57888100d6ff4088bca04fc",
+    "url": "/resume-app/static/media/quotes-10-min.9cfb6d0c.jpg"
   },
   {
-    "revision": "33485d8f689386ee97caa0c391630fca",
-    "url": "/resume-app/static/media/quoteseight.33485d8f.jpg"
+    "revision": "6c6716d337bb9430e382f5ce9c4731b8",
+    "url": "/resume-app/static/media/quoteseight.6c6716d3.jpg"
   },
   {
     "revision": "57c929d1c0de976d5871b593f96fcd9d",

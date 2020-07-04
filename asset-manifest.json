@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/resume-app/static/css/main.bb80fbe5.chunk.css",
-    "main.js": "/resume-app/static/js/main.1264965d.chunk.js",
-    "main.js.map": "/resume-app/static/js/main.1264965d.chunk.js.map",
+    "main.js": "/resume-app/static/js/main.a84e66c8.chunk.js",
+    "main.js.map": "/resume-app/static/js/main.a84e66c8.chunk.js.map",
     "runtime-main.js": "/resume-app/static/js/runtime-main.a32f6f6d.js",
     "runtime-main.js.map": "/resume-app/static/js/runtime-main.a32f6f6d.js.map",
     "static/js/2.3bf58eb9.chunk.js": "/resume-app/static/js/2.3bf58eb9.chunk.js",
     "static/js/2.3bf58eb9.chunk.js.map": "/resume-app/static/js/2.3bf58eb9.chunk.js.map",
     "index.html": "/resume-app/index.html",
-    "precache-manifest.79c788051e84f8006a38df6ad60dd980.js": "/resume-app/precache-manifest.79c788051e84f8006a38df6ad60dd980.js",
+    "precache-manifest.b73570d48eeb5436a379e3aeecf2de68.js": "/resume-app/precache-manifest.b73570d48eeb5436a379e3aeecf2de68.js",
     "service-worker.js": "/resume-app/service-worker.js",
     "static/css/main.bb80fbe5.chunk.css.map": "/resume-app/static/css/main.bb80fbe5.chunk.css.map",
     "static/js/2.3bf58eb9.chunk.js.LICENSE.txt": "/resume-app/static/js/2.3bf58eb9.chunk.js.LICENSE.txt",
     "static/media/hackerrank-brands.svg": "/resume-app/static/media/hackerrank-brands.d374537d.svg",
     "static/media/left-arrow.svg": "/resume-app/static/media/left-arrow.aaf34fe7.svg",
-    "static/media/quotes-10.jpg": "/resume-app/static/media/quotes-10.11f99642.jpg",
-    "static/media/quoteseight.jpg": "/resume-app/static/media/quoteseight.33485d8f.jpg",
+    "static/media/quotes-10-min.jpg": "/resume-app/static/media/quotes-10-min.9cfb6d0c.jpg",
+    "static/media/quoteseight.jpg": "/resume-app/static/media/quoteseight.6c6716d3.jpg",
     "static/media/quotesfive.jpg": "/resume-app/static/media/quotesfive.57c929d1.jpg",
     "static/media/quotesfour.jpg": "/resume-app/static/media/quotesfour.d894f269.jpg",
     "static/media/quotesnine.jpg": "/resume-app/static/media/quotesnine.3a52f3ae.jpg",
@@ -38,6 +38,6 @@
     "static/js/runtime-main.a32f6f6d.js",
     "static/js/2.3bf58eb9.chunk.js",
     "static/css/main.bb80fbe5.chunk.css",
-    "static/js/main.1264965d.chunk.js"
+    "static/js/main.a84e66c8.chunk.js"
   ]
 }
